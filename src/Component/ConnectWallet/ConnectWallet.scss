@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300;1,400&display=swap");
+
+.containerConnectWallet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .backgroundConnectWallet {
+    margin-top: 50px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.322);
+    box-shadow: 1px 1px 9px 3px rgba(0, 0, 0, 0.267);
+    .titleConnectWallet {
+      color: white;
+      text-shadow: 1px 2px 1px black;
+      font-family: "Secular One", sans-serif;
+      word-spacing: 10px;
+    }
+    .walletImg {
+      margin-top: -1em;
+      width: 500px;
+    }
+    .btnContainerConnectWallet {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .connectWalletBtn {
+        .MetaMaskLogo {
+          display: flex;
+          width: 50px;
+          margin-right: 0.5em;
+        }
+        width: 300px;
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(43, 255, 0, 0.521);
+        border-radius: 5px;
+        cursor: pointer;
+        height: auto;
+        margin-bottom: 35px;
+        font-family: "Exo 2", sans-serif;
+        &:hover {
+          background-color: rgb(200, 255, 0);
+        }
+      }
+    }
+  }
+}

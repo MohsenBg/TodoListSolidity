@@ -1,0 +1,90 @@
+.containerCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  .backgroundCard {
+    background-color: rgba(255, 255, 255, 0.348);
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.322);
+    box-shadow: 1px 1px 9px 3px rgba(0, 0, 0, 0.267);
+    width: 350px;
+    height: 400px;
+    margin-top: 50px;
+    .imgAccountDiv {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .imgAccount {
+        background-color: rgba(0, 0, 0, 0.664);
+        position: absolute;
+        border: solid white 3px;
+        border-radius: 50%;
+        padding: 5px;
+        width: 80px;
+      }
+    }
+    .mainContent {
+      margin-top: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .addressAccount {
+        margin-bottom: 35px;
+        color: rgba(0, 0, 0, 0.527);
+        width: 150px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .address {
+          font-size: 18px;
+          cursor: pointer;
+          margin-right: 0.2em;
+        }
+        .copyIcon {
+          font-size: 20px;
+        }
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.363);
+          color: rgba(255, 255, 255, 0.589);
+        }
+      }
+      .imgEthereum {
+        margin-top: 20px;
+        background-color: rgba(104, 253, 203, 0.829);
+        border-radius: 50%;
+        padding: 6px;
+        width: 45px;
+      }
+      .balanceAccount {
+        margin-top: 25px;
+        font-size: 40px;
+      }
+      .convertValue {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 25px;
+        .btnConvert {
+          background-color: rgba(16, 231, 88, 0.719);
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 25px;
+          width: 90px;
+          border-radius: 25px;
+          height: 30px;
+          font-size: 18px;
+          &:hover {
+            background-color: rgb(115, 203, 253);
+          }
+        }
+      }
+    }
+  }
+}
